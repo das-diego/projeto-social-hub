@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-size: cover;
+    /* background: url('../imagens/fundo-madeira.jpg') fixed; */
+    background: url('https://t3.ftcdn.net/jpg/05/28/84/36/360_F_528843674_G2PKy48ujN6YrD2QEYng462udi4okQHX.jpg') no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+}
+
+.phone {
+    background-image: url('../imagens/frame-iphone.png');
+    height: 627px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 311px;
+}
+
+.container {
+    height: 75.2%;
+    margin-left: 21px;
+    margin-top: 77px;
+    position: relative;
+    width: 89%;
+}
+
+iframe {
+    border: none;
+    height: 101%;
+    width: 98%;
+}
+
+.link-container {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+img {
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px 1px #00000044;
+    margin: 10px;
+    width: 60px;
+    box-sizing: border-box;
+}
+
+img:hover {
+    box-shadow: 2px 2px 3px 2px #00000044;
+    transform: translate(-5px, -5px) scale(105%);;
+    transition: transform .3s, border 0s;
+    border:3px solid rgba(255, 255, 255, 0.781);
+}
